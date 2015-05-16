@@ -1,0 +1,42 @@
+/* Stylesheet for the Sketchpad Project 3 - Project Odin - http://www.theodinproject.com/web-development-101/javascript-and-jquery */
+
+#main-wrapper {
+	border: 5px solid black;
+	border-radius: 10px;
+	width: 490px;
+	margin: auto;
+	background-color: #cc0000;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.linebreak {
+	clear: both;
+}
+
+#main-wrapper a {
+	background-color: white;
+	text-decoration: none;
+	font-family: Helvetica;
+	text-align: center;
+	color: black;
+	border: solid black 2px;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 15px;
+	float: left;
+}
+
+#sketch-wrapper {
+	width: 480px;
+	margin: auto;
+	border: 1px solid black;
+	background-color: #990000;
+	text-align:center;
+}
+
+.grid { 
+	float: left;
+	background-color: white;
+	border: 1px dotted gray;
+}
